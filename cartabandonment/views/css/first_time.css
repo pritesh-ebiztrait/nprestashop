@@ -1,0 +1,28 @@
+a:link,
+a:visited{color:#777;}
+a:hover,
+a:active{color:#DF9F30;}
+
+#breadcrumb{font-family:"Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;width:auto;margin-left: 350px;}
+#breadcrumb ul, #breadcrumb li {list-style-type:none;	padding:0;margin:0;}		
+#breadcrumb ul{height:33px;margin:10px auto;padding:30px 0;}	
+
+#breadcrumb li.first {background:url(../../img/first-left.png) 0 0 no-repeat ! important;height:33px;} 
+#breadcrumb li.first {background-image:url(../../imgfirst-left.gif)}
+#breadcrumb li {float:left;background:url(../../img/general-left.png) 0 0 no-repeat ! important;line-height:33px;margin:5px 0 0 0;padding-left:13px;}
+#breadcrumb li {background-image:url(../../img/general-left.gif) 0 0 no-repeat;}	
+#breadcrumb li a, #breadcrumb li span {float:left;background:url(../../img/bg-gradient.jpg) 0 0 repeat-x;height:33px;padding:0 0 0 5px;font-size:11px;text-transform:uppercase;letter-spacing:0.02em;margin:0;}	
+#breadcrumb li span.end {float:left;background:url(../../img/general-right.png) 0 0 no-repeat ! important;width:15px;height:33px;} 
+#breadcrumb li span.end {background-image:url(../../img/general-right.gif) 0 0 no-repeat;}	
+#breadcrumb li a .active { text-decoration: underline; }
+
+
+
+/*Clearfix*/
+.clearfix:after {content: ".";display: block;clear: both;visibility: hidden;line-height: 0;height: 0;}
+.clearfix {display: inline-block;}
+* html .clearfix {height: 1%;}
+
+.content { margin-left: 350px; width: auto; height: auto; width: 60%; display: none;}
+.content p { margin-left: 100px; font-size: 18px; }
+.active { display: block; }

@@ -1,0 +1,1 @@
+<p class="warning">{l s='You are unsubscribed. You will no longer receive e-mails about abandoned shopping cart.' mod='cartabandonment'}</p>

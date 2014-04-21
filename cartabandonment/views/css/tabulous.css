@@ -1,0 +1,235 @@
+/* Don't forget to include a CSS reset file otherwise it might look a little bit strange*/
+a:active,a:focus {
+        outline: expression(hideFocus='true');
+}
+
+p {
+        margin-bottom: 20px;
+}
+
+#wrapper {
+        width: 960px;
+        margin: 0 auto;
+        margin-top: 100px;
+		height: auto;
+}
+#tabs,#tabs2,#tabs3,#tabs4,#tabs5 {
+        width: 1024px;
+        margin: 0 auto;
+        margin-bottom: 40px;
+		height: auto;
+}
+
+#tabs li,#tabs2 li,#tabs3 li,#tabs4 li,#tabs5 li {
+        float: left;
+        margin-right: 2px;
+}
+
+#tabs li a,#tabs2 li a,#tabs3 li a,#tabs4 li a,#tabs5 li a {
+        display: block;
+        padding: 17px 30px;
+        background: #544f6b;
+        text-decoration: none;
+		-moz-box-shadow:inset 0px 1px 0px 0px #caefab;
+		-webkit-box-shadow:inset 0px 1px 0px 0px #caefab;
+		box-shadow:inset 0px 1px 0px 0px #caefab;
+		background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #77d42a), color-stop(1, #5cb811) );
+		background:-moz-linear-gradient( center top, #77d42a 5%, #5cb811 100% );
+		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#77d42a', endColorstr='#5cb811');
+		background-color:#77d42a;
+		text-indent:0;
+		border:1px solid #268a16;
+		display:inline-block;
+		color:#306108;
+		font-family:Arial;
+		font-size:15px;
+		font-weight:bold;
+		font-style:normal;
+		text-decoration:none;
+		text-align:center;
+		text-shadow:1px 1px 0px #aade7c;
+}
+
+#tabs li a:hover,#tabs2 li a:hover,#tabs3 li a:hover,#tabs4 li a:hover,#tabs5 li a:hover {
+        background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #5cb811), color-stop(1, #77d42a) );
+		background:-moz-linear-gradient( center top, #5cb811 5%, #77d42a 100% );
+		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#5cb811', endColorstr='#77d42a');
+		background-color:#5cb811;
+}
+
+#tabs_container {
+        padding: 40px;
+        overflow: hidden;
+        position: relative;
+        border-top: 1px solid #808080;
+		border-bottom: 1px solid #808080;
+		height: auto;
+}
+
+#tabs_container div {
+        margin-right: 40px;
+		height: auto;
+}
+
+.transition {
+        -webkit-transition: all .3s ease-in-out;
+        -moz-transition: all .3s ease-in-out;
+        -o-transition: all .3s ease-in-out;
+        -ms-transition: all .3s ease-in-out;
+        transition: all .3s ease-in-out;
+
+        -webkit-transition-delay: .3s;
+        -moz-transition-delay: .3s;
+        -o-transition-delay: .3s;
+        -ms-transition-delay: .3s;
+        transition-delay: .3s;
+}
+
+.make_transist {
+        -webkit-transition: all .3s ease-in-out;
+        -moz-transition: all .3s ease-in-out;
+        -o-transition: all .3s ease-in-out;
+        -ms-transition: all .3s ease-in-out;
+        transition: all .3s ease-in-out;
+}
+
+.hidescale {
+        -webkit-transform: scale(0.9);
+        -moz-transform: scale(0.9);
+        -o-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        transform: scale(0.9);
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+        filter: alpha(opacity=0);
+        filter: alpha(opacity=0);
+        opacity: 0;
+}
+
+.showscale {
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -o-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+        filter: alpha(opacity=100);
+        opacity: 1;
+
+        -webkit-transition-delay: .3s;
+        -moz-transition-delay: .3s;
+        -o-transition-delay: .3s;
+        -ms-transition-delay: .3s;
+        transition-delay: .3s;
+}
+
+.hideleft {
+        -webkit-transform: translateX(-100%);
+        -moz-transform: translateX(-100%);
+        -o-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
+        transform: translateX(-100%);
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+        filter: alpha(opacity=0);
+        opacity: 0;
+}
+
+.showleft {
+        -webkit-transform: translateX(0px);
+        -moz-transform: translateX(0px);
+        -o-transform: translateX(0px);
+        -ms-transform: translateX(0px);
+        transform: translateX(0px);
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+        filter: alpha(opacity=100);
+        opacity: 1;
+
+        -webkit-transition-delay: .3s;
+        -moz-transition-delay: .3s;
+        -o-transition-delay: .3s;
+        -ms-transition-delay: .3s;
+        transition-delay: .3s;
+}
+
+.hidescaleup {
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+        filter: alpha(opacity=0);
+        opacity: 0;
+}
+
+.showscaleup {
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -o-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+        filter: alpha(opacity=100);
+        opacity: 1;
+
+        -webkit-transition-delay: .3s;
+        -moz-transition-delay: .3s;
+        -o-transition-delay: .3s;
+        -ms-transition-delay: .3s;
+        transition-delay: .3s;
+}
+
+.hideflip {
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+        filter: alpha(opacity=0);
+        opacity: 0;
+
+        -webkit-transform: rotatey(-90deg) scale(1.1);
+        -moz-transform: rotatey(-90deg) scale(1.1);
+        -o-transform: rotatey(-90deg) scale(1.1);
+        -ms-transform: rotatey(-90deg) scale(1.1);
+        transform: rotatey(-90deg) scale(1.1);
+
+        -webkit-transform-origin: 50% 50%;
+        -moz-transform-origin: 50% 50%;
+        -o-transform-origin: 50% 50%;
+        -ms-transform-origin: 50% 50%;
+        transform-origin: 50% 50%;
+}
+
+.showflip {
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+        filter: alpha(opacity=100);
+        opacity: 1;
+
+        -webkit-transition-delay: .3s;
+        -moz-transition-delay: .3s;
+        -o-transition-delay: .3s;
+        -ms-transition-delay: .3s;
+        transition-delay: .3s;
+
+        -webkit-transform: rotatey(0deg) scale(1);
+        -moz-transform: rotatey(0deg) scale(1);
+        -o-transform: rotatey(0deg) scale(1);
+        -ms-transform: rotatey(0deg) scale(1);
+        transform: rotatey(0deg) scale(1);
+
+        -webkit-transform-origin: 50% 50%;
+        -moz-transform-origin: 50% 50%;
+        -o-transform-origin: 50% 50%;
+        -ms-transform-origin: 50% 50%;
+        transform-origin: 50% 50%;
+}
+
+.tabulous_active {
+		background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #5cb811), color-stop(1, #77d42a) );
+		background:-moz-linear-gradient( center top, #5cb811 5%, #77d42a 100% );
+		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#5cb811', endColorstr='#77d42a');
+		background-color:#5cb811;
+		height: 25px;
+		margin-top: -6px;
+}
+
+.tabulousclear {
+        display: block;
+        clear: both;
+}

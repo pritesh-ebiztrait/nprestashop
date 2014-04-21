@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+        <module>
+            <name>cartabandonment</name>
+            <displayName><![CDATA[Cart abandonment]]></displayName>
+            <version><![CDATA[2.0.11]]></version>
+            <description><![CDATA[Remind your clients who have abandoned their shopping cart by automatic e-mail]]></description>
+            <author><![CDATA[PrestaShop]]></author>
+            <tab><![CDATA[advertising_marketing]]></tab>
+            <is_configurable>1</is_configurable>
+            <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+        </module>

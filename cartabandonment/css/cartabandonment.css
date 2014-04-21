@@ -1,0 +1,135 @@
+.ui-timepicker-div .ui-widget-header{ margin-bottom: 8px; }
+.ui-timepicker-div dl{ text-align: left; }
+.ui-timepicker-div dl dt{ height: 25px; }
+.ui-timepicker-div dl dd{ margin: -25px 0 10px 65px; }
+.ui-timepicker-div td { font-size: 90%; }
+
+
+ul.tnd_menubar{
+        display: block;
+        list-style: none;
+}
+
+.tnd_tab {
+        display: block;
+        float: left;
+        padding: 10px;
+        margin: 0 2px;
+        border-color: inherit;
+        border-width: 1px;
+        border-style: solid;
+}
+
+.tnd_tab > a {
+        display: block;
+}
+
+.tnd_tab:hover > a, .selected > a {
+        display: block;
+        color: #ffffff;
+}
+
+.tnd_tab:hover, .selected{
+        background-color:#394049; 
+}
+
+.tnd_content {
+        border : 1px solid #cccccc;
+        padding : 10px;
+}
+
+
+.table {
+        text-align: center;
+}
+
+.table a
+{
+        text-decoration: none;
+}
+
+.tnd_table tr td{
+        padding:0;
+        height: auto;
+        border:none;
+}
+
+.tnd_table tr th{
+        padding:0 5px;
+        height: auto;
+        border:none;
+}
+
+.tnd_table a{
+        display:block;
+        margin:0;
+        padding:0;
+}
+
+.tnd_table{
+        border:none;
+}
+
+/*
+.tab-pane {
+    float: left;
+    position: relative;
+    width: 928px;
+}
+
+.tab-row .tab {
+    background: none repeat scroll 0 0 #EFEFEF;
+    float: left;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin: 0px;
+    padding: 2px 8px 3px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 1;
+}
+.tab-row .tab.selected {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #FFF6D3;
+    border-color: #CCCCCC #CCCCCC -moz-use-text-color;
+    border-style: solid solid none;
+    border-width: 1px 1px 0;
+    margin: 1px -3px -3px 0;
+    padding: 2px 25px 4px;
+    top: -2px;
+    z-index: 3;
+}
+.tab-page {
+    background: none repeat scroll 0 0 #FFFFF0;
+    border: 1px solid #CCCCCC;
+    clear: both;
+    padding: 10px;
+    position: relative;
+    z-index: 2;
+}
+.tab-page table tr td.col-left {
+    vertical-align: top;
+    width: 150px;
+}
+.tab-page table tr td p {
+    font-size: 0.95em;
+    margin: 0.5em 0 0;
+    padding: 0 0 0.5em;
+}
+.tab-page table tr td p.block {
+    clear: both;
+    display: block;
+}
+.tab-row {
+    white-space: nowrap;
+    z-index: 1;
+}
+
+*/
+
